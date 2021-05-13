@@ -1,0 +1,88 @@
+.subscribe 
+    display: flex
+    height: inherit
+    &Wrap 
+        margin-top: 100px
+        height: 438px
+        background: url(../../../img/subscribe.jpg) no-repeat center bottom, #ccc
+        background-blend-mode: overlay
+        background-size: cover
+    &Divider 
+        width: 1px
+        background: #e3e3e3
+    &Right 
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: calc(100% - 1px)
+    &RightHead 
+        font-size: 24px
+        text-transform: uppercase
+        color: #222224
+    &RightText 
+        margin: 10px 0 35px
+    &Form 
+        height: 46px
+        input 
+            height: inherit
+            width: 334px
+            border: none
+            outline: none
+            padding: 0 28px
+            font-weight: 700
+            background-color: #e1e1e1
+            border-top-left-radius: 23px
+            border-bottom-left-radius: 23px
+            float: left
+        button 
+            background-color: #f16d7f
+            border-top-right-radius: 23px
+            border-bottom-right-radius: 23px
+            color: white
+            border: none
+            height: inherit
+            padding: 0 20px
+            outline: none
+            cursor: pointer
+            &:hover
+                background-color: #e61935
+.reviews 
+    display: flex
+    align-items: center
+    width: calc(100% - 1px)
+    &Unit 
+        width: 500px
+        display: flex
+        justify-content: space-between
+        &Left 
+            width: 83px
+        &Right 
+            width: 386px
+            blockquote 
+                margin: 0
+                font-size: 16px
+                font-style: italic
+                line-height: 26px
+                font-weight: 700
+    &Name 
+        margin-top: 20px
+        font-size: 16px
+        font-weight: 700
+        color: #f16d7f
+    &From 
+        color: #222224
+        font-size: 12px
+        font-weight: 300
+    &Switch 
+        width: 140px
+        display: flex
+        justify-content: space-between
+        margin-top: 40px
+        div 
+            width: 38px
+            height: 4px
+            background-color: #d6d6d6
+            &:hover 
+                background-color: #f16d7f
+                cursor: pointer

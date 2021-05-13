@@ -1,0 +1,159 @@
+.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: inherit;
+}
+
+.subscribeWrap {
+  margin-top: 100px;
+  height: 438px;
+  background: url(../../../img/subscribe.jpg) no-repeat center bottom, #ccc;
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+.subscribeDivider {
+  width: 1px;
+  background: #e3e3e3;
+}
+
+.subscribeRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100% - 1px);
+}
+
+.subscribeRight blockquote {
+  margin: 0;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.subscribeRightHead {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #222224;
+}
+
+.subscribeRightText {
+  margin: 10px 0 35px;
+}
+
+.subscribeForm {
+  height: 46px;
+}
+
+.subscribeForm input {
+  height: inherit;
+  width: 334px;
+  border: none;
+  outline: none;
+  padding: 0 28px;
+  font-weight: 700;
+  background-color: #e1e1e1;
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
+  float: left;
+}
+
+.subscribeForm button {
+  background-color: #f16d7f;
+  border-top-right-radius: 23px;
+  border-bottom-right-radius: 23px;
+  color: white;
+  border: none;
+  height: inherit;
+  padding: 0 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.subscribeForm button:hover {
+  background-color: #e61935;
+}
+
+.reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100% - 1px);
+}
+
+.reviewsUnit {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.reviewsUnitLeft {
+  width: 83px;
+}
+
+.reviewsUnitRight {
+  width: 386px;
+}
+
+.reviewsUnitRight blockquote {
+  margin: 0;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.reviewsName {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f16d7f;
+}
+
+.reviewsFrom {
+  color: #222224;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.reviewsSwitch {
+  width: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.reviewsSwitch div {
+  width: 38px;
+  height: 4px;
+  background-color: #d6d6d6;
+}
+
+.reviewsSwitch div:hover {
+  background-color: #f16d7f;
+  cursor: pointer;
+}
+/*# sourceMappingURL=subscribeWrap.css.map */

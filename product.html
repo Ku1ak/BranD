@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/product/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+</head>
+
+<body>
+    <header class="header container">
+        <a href="#" class="logo-a">
+            <div class="logo">Bran<span>d</span></div>
+        </a>
+        <form method="get" class="search">
+            <button class="search__browse" name="Browse" id="#">Browse <i class="fas fa-caret-down"></i></button>
+            <input type="text" name="search" placeholder="Search for Item...">
+            <button><i class="fas fa-search"></i></button>
+        </form> <img src="img/cart.png" alt="cart" class="header__cart">
+        <button name="accountBar" class="header__account-bar">My Account <i class="fas fa-caret-down"></i></button>
+    </header>
+    <div class="headerLine"></div>
+    <nav class="Navigation-header"> <a href="#">Home</a> <a href="#">Man</a> <a href="#">Women</a> <a href="#">Kids</a>
+        <a href="#">Accoseriese</a> <a href="#">Featured</a> <a href="#">Hot Deals </a> </nav>
+    <div class="newArrivalsWrap">
+        <div class="container newArrivals">
+            <h1>New arrivals</h1>
+            <nav>
+                <a href="">Home</a>
+                <span>/</span>
+                <a href="">Men</a>
+                <span>/</span>
+                <a href="">New arrivals</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="box container">
+        <div class="box_slidebar">
+            <details open class="category container">
+                <summary tabindex="1"><span>CATEGORY <i class="fas fa-caret-up i-right"></i></span></summary>
+                <ul>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">Denim</a></li>
+                <li><a href="#">Hoodies & Sweatshirts</a></li>
+                <li><a href="#">Jackets & Coats</a></li>
+                <li><a href="#">Pants</a></li>
+                <li><a href="#">Polos</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Sweaters & Knits</a></li>
+                <li><a href="#">T-Shirts</a></li>
+                <li><a href="#">Tanks</a></li>
+                </ul>
+                </details>
+            <details open class="category container">
+                <summary tabindex="1"><span>BRAND </span><i class="fas fa-caret-down i-left"></i></summary>
+                </details>
+            <details open class="category container">
+                    <summary tabindex="1"><span>dESIGNER</span><i class="fas fa-caret-down i-left"></i></summary>
+                    </details>
+            </div>
+        <div class="box_topFilter">
+            <div class="trending">
+                <h1>Trending now</h1>
+                <p>Bohemian | Floral | Lace Floral | Lace | Bohemian</p>
+            </div>
+            <div class="size">
+                <h1>Size </h1>
+                <input type="checkbox" name="a" value="XXS"><span>XXS</span>
+                <input type="checkbox" name="a" value="XS"><span>XS</span>
+                <input type="checkbox" name="a" value="S"><span>S</span>
+                <input type="checkbox" name="a" value="M"><span>M</span>
+                <input type="checkbox" name="a" value="L"><span>L</span>
+                <input type="checkbox" name="a" value="XL"><span>XL</span>
+                <input type="checkbox" name="a" value="XLL"><span>XLL</span>
+            </div>
+            <div class="Price">
+                <h1>pRICE</h1>
+                <form oninput="result.value=range2.value" action="" method="post">
+                    <input name="range" id="range2" type="range" min="0" max="1000" value="10" step="10" >
+                    <br>
+                    $<output name="result" for="range2">30</output>
+                </form>
+            </div>
+        </div>
+        <div class="box_filter">
+            <div class="SortBy">
+                <span>SortBy</span>
+                <select required="" class="sort"> 
+                    <option>Name</option>
+                    <option>A</option>
+                    <option>B</option>
+                </select>
+            </div>
+            <div class="SortBy">
+                <span>Show</span>
+                <select required="" class="show">
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                </select>
+            </div>
+        </div>
+        <div class="product">
+                <div class="product-list">
+                    <div class="product-frame">
+                        <div class="product-b">
+                            <div class="productImgWrap"> <img src="img/prod-1.jpg" class="product-img" alt="prod-1">
+                                <div class="productBuy">
+                                    <button> <img src="img/addToCart.png" alt=""> Add to Cart </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="product-text">mango people t-shirt</p><span class="price">&#36;52.00</span> </div>
+                    <div class="product-frame">
+                        <div class="product-b">
+                            <div class="productImgWrap"> <img src="img/prod_8.jpg" class="product-img" alt="prod-1">
+                                <div class="productBuy">
+                                    <button> <img src="img/addToCart.png" alt=""> Add to Cart </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="product-text">mango people t-shirt</p><span class="price">&#36;52.00</span> </div>
+                    <div class="product-frame">
+                        <div class="product-b">
+                            <div class="productImgWrap"> <img src="img/prod_3.jpg" class="product-img" alt="prod-1">
+                                <div class="productBuy">
+                                    <button> <img src="img/addToCart.png" alt=""> Add to Cart </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="product-text">mango people t-shirt</p><span class="price">&#36;52.00</span> </div>
+                    <div class="product-frame">
+                        <div class="product-b">
+                            <div class="productImgWrap"> <img src="img/Layer_product1.jpg" class="product-img" alt="prod-1">
+                                <div class="productBuy">
+                                    <button> <img src="img/addToCart.png" alt=""> Add to Cart </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="product-text">mango people t-shirt</p><span class="price">&#36;52.00</span> </div>
+                    <div class="product-frame">
+                        <div class="product-b">
+                            <div class="productImgWrap"> <img src="img/prod_8.jpg" class="product-img" alt="prod-1">
+                                <div class="productBuy">
+                                    <button> <img src="img/addToCart.png" alt=""> Add to Cart </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="product-text">mango people t-shirt</p><span class="price">&#36;52.00</span> </div>
+                    <div class="product-frame">
+                        <div class="product-b">
+                            <div class="productImgWrap"> <img src="img/prod_6.jpg" class="product-img" alt="prod-1">
+                                <div class="productBuy">
+                                    <button> <img src="img/addToCart.png" alt=""> Add to Cart </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="product-text">mango people t-shirt</p><span class="price">&#36;52.00</span> </div>
+                    <div class="product-frame">
+                        <div class="product-b">
+                            <div class="productImgWrap"> <img src="img/prod_7.jpg" class="product-img" alt="prod-1">
+                                <div class="productBuy">
+                                    <button> <img src="img/addToCart.png" alt=""> Add to Cart </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="product-text">mango people t-shirt</p><span class="price">&#36;52.00</span> </div>
+                    <div class="product-frame">
+                        <div class="product-b">
+                            <div class="productImgWrap"> <img src="img/prod_8.jpg" class="product-img" alt="prod-1">
+                                <div class="productBuy">
+                                    <button> <img src="img/addToCart.png" alt=""> Add to Cart </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="product-text">mango people t-shirt</p><span class="price">&#36;52.00</span> </div>
+                    <div class="product-frame">
+                            <div class="product-b">
+                                <div class="productImgWrap"> <img src="img/prod-1.jpg" class="product-img" alt="prod-1">
+                                    <div class="productBuy">
+                                        <button> <img src="img/addToCart.png" alt=""> Add to Cart </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="product-text">mango people t-shirt</p><span class="price">&#36;52.00</span> </div>
+                </div>
+                <div class="box_pagination">
+                    <i class="fas fa-angle-left"></i>
+                    <a href="#" class="first">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">20</a>
+                    <i class="fas fa-angle-right first"></i></div>
+                <div class="box_ViewAll">
+                    <button>ViewAll</button>
+                </div>
+        </div>
+    </div>
+    
+    <div class="feature">
+        <div class="feature-box">
+                <ul>
+                    <li><img src="img/Forma_1.svg" alt="fr-1"></li>
+                    <li><h1>Free Delivery</h1></li>
+                    <li><p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p></li></div>
+                </ul>
+        <div class="feature-box">
+            <ul>
+                <li><img src="img/Forma_2.svg" alt="fr-2"></li>
+                <li><h1>Sales &amp; discounts</h1></li>
+                <li><p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p></li></div>
+            </ul>
+        <div class="feature-box"> 
+            <ul>  
+                <li><img src="img/Forma_3.svg" alt="fr-3"></li>
+                <li><h1>Quality assurance</h1></li>
+                <li><p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p></li></div>
+                </ul>
+    </div>
+    <div class="subscribeWrap">
+        <div class="container subscribe">
+            <div class="reviews">
+                <div class="reviewsUnit">
+                    <div class="reviewsUnitLeft"> <img src="img/reviewPerson.png" alt=""> </div>
+                    <div class="reviewsUnitRight">
+                        <blockquote> “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium” </blockquote>
+                        <div class="reviewsName"> Bin Burhan </div>
+                        <div class="reviewsFrom"> Dhaka, Bd </div>
+                        <div class="reviewsSwitch">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribeDivider"></div>
+            <div class="subscribeRight">
+                <div class="subscribeRightHead"> Subscribe </div>
+                <div class="subscribeRightText"> FOR OUR NEWLETTER AND PROMOTION </div>
+                <form class="subscribeForm" action="">
+                    <input placeholder="Enter Your Email" type="text">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer container">
+            <div class="footerBrand">
+                <a href="#" class="logo-a">
+                    <div class="logo"> BRAN<span>D</span> </div>
+                </a>
+                <div class="footerBrandText1"> Objectively transition extensive data rather than cross functional
+                    solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits.
+                    Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </div>
+                <div class="footerBrandText2"> Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize. </div>
+            </div>
+            <div class="footerColumn">
+                <h2>COMPANY</h2> <a href="">Home</a> <a href="">Shop</a> <a href="">About</a> <a href="">How It
+                    Works</a> <a href="">Contact</a>
+            </div>
+            <div class="footerColumn">
+                <h2>INFORMATION</h2> <a href="">Tearms & Condition</a> <a href="">Privacy Policy</a> <a href="">How to
+                    Buy</a> <a href="">How to Sell</a> <a href="">Promotion</a>
+            </div>
+            <div class="footerColumn">
+                <h2>SHOP CATEGORY</h2> <a href="">Men</a> <a href="">Women</a> <a href="">Child</a> <a
+                    href="">Apparel</a> <a href="">Browse All</a>
+            </div>
+        </div>
+        <div class="copyrights">
+            <div class="container copyrightsWrap">
+                <div class="copyrightsLeft"> &copy; 2017 Brand All Rights Reserved. </div>
+                <div class="copyrightsRight"> <a href=""><i class="fab fa-facebook-f"></i></a> <a href=""><i
+                            class="fab fa-twitter"></i></a> <a href=""><i class="fab fa-linkedin-in"></i></a> <a
+                        href=""><i class="fab fa-pinterest-p"></i></a> <a href=""><i
+                            class="fab fa-google-plus-g"></i></a> </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

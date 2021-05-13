@@ -1,0 +1,58 @@
+@import './header.css';
+@import './footer.css';
+@import './subscribeWrap.css';
+@import './checkout.css';
+
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.newArrivalsWrap {
+    height: 150px;
+    background: #f8f3f4;
+}
+
+.newArrivals {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.newArrivals h1 {
+    margin: 0;
+    font-weight: 600;
+    color: #f16d7f;
+}
+
+.newArrivals nav a {
+    text-decoration: none;
+    color: #636363;
+}
+
+.newArrivals nav a:hover {
+    color: #f16d7f;
+}
+
+.newArrivals nav a:last-child {
+    font-weight: 700;
+    color: #f16d7f;
+}

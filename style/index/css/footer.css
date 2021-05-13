@@ -1,0 +1,110 @@
+.footer {
+  margin-top: 100px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerBrand {
+  width: 427px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #898989;
+}
+
+.footerBrandText1 {
+  margin: 30px 0;
+}
+
+.footerColumn {
+  padding-top: 15px;
+}
+
+.footerColumn h2 {
+  margin: 0 0 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f16d7f;
+}
+
+.footerColumn a {
+  display: block;
+  color: #898989;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footerColumn a:hover {
+  color: #f16d7f;
+}
+
+.footerColumn a:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.copyrights {
+  margin-top: 100px;
+  height: 80px;
+  background: #e6e6e6;
+}
+
+.copyrightsWrap {
+  color: #7a7a7a;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.copyrightsRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.copyrightsRight a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.copyrightsRight i {
+  width: 32px;
+  height: 32px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.copyrightsRight i:hover {
+  color: white;
+  background: #f16d7f;
+}
+/*# sourceMappingURL=footer.css.map */
